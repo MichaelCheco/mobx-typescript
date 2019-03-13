@@ -1,24 +1,25 @@
 {
-  "name": "mob-type",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@types/react": "^16.8.8",
-    "@types/react-dom": "^16.8.2",
-    "mobx": "^5.9.0",
-    "mobx-react": "^5.4.3",
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4",
-    "ts-loader": "^5.3.3",
-    "typescript": "^3.3.3333",
-    "webpack": "^4.29.6",
-    "webpack-dev-server": "^3.2.1"
-  }
+	"name": "mob-type",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "webpack ./webpack.config.js",
+		"start": "webpack-dev-server ./webpack.config.js --content-base ./public"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@types/react": "^16.8.8",
+		"@types/react-dom": "^16.8.2",
+		"mobx": "^5.9.0",
+		"mobx-react": "^5.4.3",
+		"react": "^16.8.4",
+		"react-dom": "^16.8.4",
+		"ts-loader": "^5.3.3",
+		"typescript": "^3.3.3333",
+		"webpack": "^4.29.6",
+		"webpack-dev-server": "^3.2.1"
+	}
 }
